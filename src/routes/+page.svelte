@@ -1,7 +1,2 @@
-<script>
-    import Header from "./Header.svelte";
-</script>
-
-<Header />
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1 style="text-align: center">Haha, this website looks kinda <span class="fancy-text">nice</span></h1>
+<p style="text-align: center">I am gonna make it worse.</p>

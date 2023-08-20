@@ -47,3 +47,9 @@ h1, h2, h3 {
     transition-duration: 200ms;
     transition-timing-function: ease-out;
 }
+
+.fancy-text {
+    background: linear-gradient(120deg, var(--primary), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
