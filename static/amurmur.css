@@ -14,6 +14,36 @@ html {
     color: var(--text);
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h1, h2, h3 {
     font-family: 'Inter', sans-serif;
+}
+
+.primary-button {
+    padding: 1em 2em;
+    background-color: var(--primary);
+    border-radius: 5px;
+    white-space: nowrap;
+    color: var(--text);
+    border: 2px solid var(--primary);
+    text-decoration: none;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+}
+
+.primary-button:hover {
+    background-color: var(--background);
+}
+
+.simple-button {
+    padding: 1em 2em;
+    white-space: nowrap;
+    color: var(--text);
+    text-decoration: none;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
 }
