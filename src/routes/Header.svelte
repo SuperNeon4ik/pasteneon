@@ -21,7 +21,7 @@
         <a class="primary-button" href="/new">New Neon</a>
     </div>
     <button class="ham-menu" class:hide={desktopWindow} on:click={toggleHamDropdown}>
-        <svg viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 32 32"><path d="M4 10h24a2 2 0 0 0 0-4H4a2 2 0 0 0 0 4zm24 4H4a2 2 0 0 0 0 4h24a2 2 0 0 0 0-4zm0 8H4a2 2 0 0 0 0 4h24a2 2 0 0 0 0-4z" fill="#030203" class="fill-000000"></path></svg>
+        <svg viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 32 32"><path d="M4 10h24a2 2 0 0 0 0-4H4a2 2 0 0 0 0 4zm24 4H4a2 2 0 0 0 0 4h24a2 2 0 0 0 0-4zm0 8H4a2 2 0 0 0 0 4h24a2 2 0 0 0 0-4z" fill="var(--text)" class="fill-000000"></path></svg>
     </button>
 </nav>
 
@@ -62,7 +62,7 @@
         overflow: hidden;
         display: flex;
         flex-direction: column;
-        background-color: #ded7e4;
+        background-color: rgba(222, 215, 228, 0.11);
     }
     .ham-dropdown.show {
         max-height: 500px;
