@@ -13,6 +13,10 @@
         hamDropdownShow = !hamDropdownShow;
     }
 
+    function hideHamDropdown() {
+        hamDropdownShow = false;
+    }
+
     function toggleDarkMode() {
         theme.set(currentTheme === "light" ? "dark" : "light");
     }
@@ -58,8 +62,8 @@
 </nav>
 
 <div class="ham-dropdown" class:show={!desktopWindow && hamDropdownShow}>
-    <a href="/new" class="primary">New Neon</a>
-    <a href="https://superneon4ik.me">About</a>
+    <a href="/new" class="primary" on:click={hideHamDropdown}>New Neon</a>
+    <a href="https://superneon4ik.me" on:click={hideHamDropdown}>About</a>
 </div>
 
 <style>
